@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Counseling Appointment Form</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rhythm Beats Dance Academy</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Counseling Appointment Form</h2>
-    <form action="#" method="POST">
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" required>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+  <header>
+    <h1>Rhythm Beats Dance Academy</h1>
+    <p>Unleash Your Passion. Move with Rhythm.</p>
+  </header>
 
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#classes">Classes</a>
+    <a href="#instructors">Instructors</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-      <label for="date">Preferred Date:</label>
-      <input type="date" id="date" name="date" required>
+  <section id="home">
+    <h2>Welcome to Rhythm Beats</h2>
+    <p>Join our vibrant community of dancers and explore styles from hip-hop to classical. Beginners and professionals are all welcome!</p>
+  </section>
 
-      <label for="time">Preferred Time:</label>
-      <input type="time" id="time" name="time" required>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Established in 2010, Rhythm Beats is dedicated to teaching dance with creativity, discipline, and fun. Our mission is to inspire self-expression through movement.</p>
+  </section>
 
-      <label for="type">Counseling Type:</label>
-      <select id="type" name="type" required>
-        <option value="">-- Select --</option>
-        <option value="career">Career Counseling</option>
-        <option value="mental">Mental Health</option>
-        <option value="relationship">Relationship</option>
-        <option value="academic">Academic</option>
-        <option value="other">Other</option>
-      </select>
+  <section id="classes">
+    <h2>Our Classes</h2>
+    <ul>
+      <li>Hip-Hop</li>
+      <li>Ballet</li>
+      <li>Contemporary</li>
+      <li>Bollywood</li>
+      <li>Salsa</li>
+      <li>Zumba</li>
+    </ul>
+  </section>
 
-      <label for="message">Additional Message (optional):</label>
-      <textarea id="message" name="message" rows="4" placeholder="Enter your message..."></textarea>
+  <section id="instructors">
+    <h2>Meet Our Instructors</h2>
+    <p>Our certified dance instructors bring global experience and a deep passion for dance.</p>
+  </section>
 
-      <button type="submit">Book Appointment</button>
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/200x150" alt="Dance 1">
+    <img src="https://via.placeholder.com/200x150" alt="Dance 2">
+    <img src="https://via.placeholder.com/200x150" alt="Dance 3">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" />
     </form>
-  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rhythm Beats Dance Academy. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
