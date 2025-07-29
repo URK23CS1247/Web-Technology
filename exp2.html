@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counseling Appointment Form</title>
+</head>
+<body>
+
+  <h2>Counseling Appointment Form</h2>
+
+  <form action="#" method="post">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="date">Preferred Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="time">Preferred Time:</label><br>
+    <input type="time" id="time" name="time" required><br><br>
+
+    <label for="type">Counseling Type:</label><br>
+    <select id="type" name="type" required>
+      <option value="">-- Select --</option>
+      <option value="career">Career Counseling</option>
+      <option value="mental">Mental Health</option>
+      <option value="relationship">Relationship</option>
+      <option value="academic">Academic</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="message">Message (optional):</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
